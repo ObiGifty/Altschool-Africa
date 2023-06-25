@@ -1,0 +1,501 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+.container1{
+    width: 80%;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.left{
+    flex: 0 10%;
+    display: flex;
+    gap: 10px;
+
+}
+.left h1{
+    color: blue;
+    text-transform: uppercase;
+}
+.middle{
+    flex: 0 50%;
+    
+}
+.right1{
+    flex: 0  20%;
+
+}
+.right1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.line{
+    height: 30px;
+}
+.middle ul{
+    display: flex;
+}
+.middle ul li{
+    list-style: none;
+    padding: 0px 10px;
+}
+.middle ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold ;
+    text-transform: capitalize;
+}
+.middle ul li a span{
+    color: blue;
+}
+.btn{
+    background-color: blue;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    color: aliceblue;
+}
+.p1 span{
+    color: blue;
+}
+.container2{
+    width: 50%;
+    height: 300px;
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+}
+.p3{
+    margin-bottom: 40px;
+}
+.firstimg{
+    width: 100px;
+    margin-top: -250px;
+    
+}
+.container2 h2{
+    line-height: 50px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.container2 h2 span{
+    color: blue;
+}
+.con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.con h4{
+    color: blue;
+}
+.btn2{
+    background-color: blue;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    color: aliceblue;
+}
+.container3{
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+.container4{
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        max-height: 100%;
+    height: 94px;
+}
+.possibilities{
+    background-color: rgba(184, 182, 182,0.3);
+    width: 85%;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-self: center;
+    margin: auto;
+}
+.box1{
+    width: 25%;
+    height: 180px;
+    margin-top: 50px;
+    
+}
+.box2{
+    width: 15%;
+    height: 180px;
+    margin-top: 50px;
+}
+.box3{
+    width: 15%;
+    height: 180px;
+    margin-top: 50px;
+}
+.box4{
+    width: 15%;
+    height: 180px;
+    margin-top: 50px;
+}
+.box5{
+    width: 15%;
+    height: 180px;
+    margin-top: 50px;
+}
+.b1{
+    font-size: 40px;
+    font-weight: bold;
+}
+.b1 span{
+    color: blue;
+    text-transform: capitalize;
+}
+.b2 span{
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+.b3 span{
+    font-size: 40px;
+    font-weight: bold;
+   
+}
+.b4 span{
+    font-size: 40px;
+    font-weight: bold;
+  
+}
+.b5 span{
+    font-size: 40px;
+    font-weight: bold;
+  
+}
+.container5{
+    
+    width: 70%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 5px;
+    margin-top: 70px;
+}
+.con1{
+   
+    width: 40%;
+    height: 500px;
+
+}
+.con2{
+    
+    width: 60%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.c1{
+    
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.c2{
+   
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.u1{
+   
+    width: 100%;
+    height: 250px;
+
+}
+.u2{
+   
+    width: 100%;
+    height: 250px;
+
+}
+.u3{
+    
+    width: 100%;
+    height: 250px;
+}
+.u4{
+  
+    width: 100%;
+    height: 250px;
+}
+.choose {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-left: 10px;
+
+}
+.choose span{
+    color: blue;
+}
+.choose2{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.um1{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.perfectprice{
+   
+    width: 50%;
+    height: 100px;
+    margin: auto;
+    margin-right: auto;
+ 
+}
+.perfect{
+    text-align: center;
+    font-size: 40px;
+   
+}
+.perfect span{
+    color: blue;
+    font-weight: bold;
+}
+.perfect2{
+    text-align: center;
+    line-height: 25px;
+}
+.payment{
+    width: 80%;
+    height: 700px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+.pay1{
+    position: relative;
+    z-index: 3;
+    border: 1px solid blue;
+    width: 25%;
+    height: 500px;
+    margin-top: 100px;
+    border-radius: 10px;
+    
+}
+.pay2{
+    position: relative;
+    border: 1px solid blue;
+    width: 35%;
+    height: 700px;
+    background-color: rgb(80, 21, 119);
+    border-radius: 10px;
+    
+}
+.pay3{
+    border: 1px solid blue;
+    width: 25%;
+    height: 500px;
+    margin-top: 100px;
+    border-radius: 10px;
+}
+.support ul{
+    margin-top: 0px;
+    margin-left: 80px;
+
+}
+.support ul li {
+    list-style: none;
+    padding: 30px 0px;
+    
+}
+.plan{
+    margin-top: 20px;
+    text-align: center;
+}
+.plan span{
+    font-size: 40px;
+    font-weight: bolder;
+    margin-left: -60px;
+}
+.pay1 h2{
+    font-weight: bolder;
+    text-align: center;
+}
+.support2 ul{
+    margin-top: 30px;
+    margin-left: 150px;
+
+}
+.support2 ul li {
+    list-style: none;
+    padding: 30px 0px;
+    color: rgb(254, 255, 255);
+    
+}
+.plan2{
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(251, 253, 255);
+}
+.plan2 span{
+    font-size: 40px;
+    font-weight: bolder;
+    margin-left: 25px;
+    color: rgb(250, 250, 249);
+}
+.pay2 h2{
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+}
+.support3 ul{
+    margin-top: 0px;
+    margin-left: 80px;
+
+}
+.support3 ul li {
+    list-style: none;
+    padding: 30px 0px;
+    
+}
+.plan3{
+    margin-top: 20px;
+    text-align: center;
+}
+.plan3 span{
+    font-size: 40px;
+    font-weight: bolder;
+    margin-left: 30px;
+}
+.pay3 h2{
+    font-weight: bolder;
+    text-align: center;
+}
+.somebtn{
+    width: 50%;
+    height: 60px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+.btn4{
+    padding: 15px;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    border: 0.5px solid blueviolet
+}
+.btn5{
+    padding: 15px;
+    background-color: rgb(113, 60, 173);
+    color: rgb(245, 239, 239);
+    border-radius: 20px;
+    border: none;
+}.anotherform{
+    
+    width: 100%;
+    height: 500px;
+    background-image: url(BG3.png);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    margin-top: 50px;
+}
+.faq{
+    
+    width: 80%;
+    height: 300px;
+    text-align: center;
+}
+.plus{
+    float: right;
+ }
+.quest{
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.quest2{
+    margin-bottom: 10px;
+}
+.quest3{
+    margin-bottom: 10px;
+    line-height: 30px;
+    font-size: 12px;
+}
+.faq ul{
+    margin-top: 10px;
+}
+.faq ul li{
+    line-height: 60px;
+    list-style: none;
+}
+.revolution{
+    border: 10px solid black;
+    width: 100%;
+    height: 300px;
+    background-image: url(revolution.png);
+    background-position: center;
+    background-size: cover;
+}
+.footer{
+    border: 1px solid black;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 70px; 
+   
+}
+.cut{
+    
+    width: 15%;
+    height: 120px;
+    
+
+}
+.major{
+    width: 60%;
+    height: 500px;
+    text-align: center;
+
+}
+.fast{
+    margin-left: 30px;
+}
+.details{
+    text-align: center;
+}
